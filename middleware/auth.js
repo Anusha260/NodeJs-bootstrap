@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const jwtSecret =
-  "https://jwt.io/#debugger-io?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMjM0MDMwYzFjNTlkNzZhNzgxMzIzMCIsInVzZXJuYW1lIjoiYWE0MDJAZ21haWwuY29tIiwicm9sZSI6IkJhc2ljIiwibmFtZSI6IkFudXNoYSIsInBob25lIjoiNjMwNTUxNjkzNyIsImlhdCI6MTY2MzI1NDU3NiwiZXhwIjoxNjYzMjY1Mzc2fQ._urucqrolAPuTdYlikvacOo3IHQ-YVRoobc6ALGsTEU%3BMax-Age%3D10800%3BPath%3D%2F%3BExpires%3DThu%2C15Sep202218%3A09%3A36GMT%3BHttpOnly";
+  "4715aed3c946f7b0a38e6b534a9583628d84e96d10fbc04700770d572af3dce4362d";
 
 exports.adminAuth = (req, res, next) => {
   const token = req.cookies.jwt;
